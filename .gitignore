@@ -1,0 +1,8 @@
+/.vscode
+/argtest.py
+/inittest.py
+/passwordgen_deftest.py
+/passwordgen_simple.py
+/test.py
+/testbool.py
+/__init__.py

@@ -2,7 +2,7 @@ import argparse
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-l", "--pwdlength", help="Generating password length. (Integral value)",
-                    type=int, default=32, metavar=NotImplemented)
+                    type=int, default=64, metavar=NotImplemented)
 parser.add_argument("-s", "--nosign", help="Without sign option.",
                     action="store_false")
 args = parser.parse_args()

@@ -22,7 +22,7 @@ charset = lowercase + uppercase + digits
 if args.nosign:
     charset = charset + signs
 
-while len(chars) <= args.pwdlength:
+while len(chars) < args.pwdlength:
     chars.append(secrets.choice(charset))
 else:
     pwdstring = ''.join(chars)
